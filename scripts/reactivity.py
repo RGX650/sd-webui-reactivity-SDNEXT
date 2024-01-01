@@ -22,7 +22,7 @@ import gradio as gr
 from modules import script_callbacks
 from modules import shared
 from modules.sd_hijack_clip import FrozenCLIPEmbedderWithCustomWordsBase as CLIP
-from modules.ui import refresh_symbol
+from modules.ui_symbols import refresh as refresh_symbol
 from modules.ui_components import ToolButton
 
 from scripts.reactivitylib.sdhook import each_unet_attn_layers
